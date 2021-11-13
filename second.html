@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           *{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("bc.png");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: rgba(238, 8, 27, 0.911);
+    font-size: 35px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: burlywood;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background:transparent;
+    border: 1px solid rgba(238, 8, 27, 0.911);
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background:rgba(238, 8, 27, 0.911) ;
+    border: 2px solid rgba(238, 8, 27, 0.911);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.btn:hover{
+    background-color: burlywood;
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
+img{
+    width: 20%;
+    border-radius: 50%;
+}
+.img1 img{
+    float: left;
+  width: 30.33%;
+  padding: 5px;
+  margin: 30px;
+    
+}
+.img2 img{
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+    margin: 30px;
+}
+.img1 p{
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+figure {
+  float: left;
+  width: 40%;
+  
+  text-align: center;
+  color: #fff;
+  font-style: arial;
+  font-size: larger;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 30px;
+  margin-top: 90px;
+  
+  
+}
+.a1{
+    float: left;
+  width: 60%;
+  
+  
+  text-align: center;
+  color: #fff;
+  font-style: arial;
+  font-size: larger;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 30px
+  
+}
+.b1{
+    width: 240px;
+    height: 40px;
+    background:rgba(238, 8, 27, 0.911) ;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: .4s ease;
+    
+
+}
+.b1:hover{
+    background-color: burlywood;
+}
+.b1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.b2{
+    width: 240px;
+    height: 40px;
+    background:rgba(238, 8, 27, 0.911) ;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: .4s ease;
+    text-decoration: none;
+}
+.b2:hover{
+    background-color: burlywood;
+}
+.b2 a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.scaled{
+    width: 50%;
+}
+.d1{
+    width: 75%;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">HOSPITAL MANAGEMENT</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">DESIGN</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input class="srch" type="search" name="" placeholder="type of text">
+            <a href="#"><button class="btn">search</button></a>
+        </div>
+     </div>
+     <figure>
+        <p><img class=scaled src="images.png"
+          alt="St. Tropez">
+          
+
+        <figcaption>
+            I AM PETIENT
+           <br> <button class="b1"><a href="petient.html">NEXT</a></button>
+        </figcaption>
+      </figure>
+      <figure class="a2">
+        <p><img class=d1 src="ThAOKju.jpg"
+          alt="St. Tropez">
+          
+
+        <figcaption>
+            I AM DOCTOR
+           <br> <button class="b2"><a href="dr.html">NEXT</a></button>
+        </figcaption>
+      </figure>
+</body>
+</html>

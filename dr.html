@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url("bx1.jpg");
+            background-position: center;
+            background-size: cover;            font-family: sans-serif;
+            margin-top: 40px;
+
+        }
+        h2{
+            width: 800px;
+            background-color:rgb(0,0,0,0.6);
+            margin: auto;
+            color: #fff;
+            padding: 10px 10px 0px 0px;
+            text-align: center;
+            border-radius: 15px 15px 0px 0px;
+
+        }
+        .main{
+            background-color: rgb(0,0,0,0.5);
+            width: 800px;
+            margin: auto;
+        }
+        form{
+            padding: 10px;
+            text-align: center;
+        }
+        label{
+            color: skyblue;
+            font-size: 20px;
+        }
+        input{
+            color: slategrey;
+            border-radius: 7px 7px 7px 7px;
+            width: 50%;
+            
+        }
+        legend{
+            color:tomato;
+        }
+        fieldset{
+            text-align: center;
+            position: relative;
+            color: skyblue;
+        }
+        button{
+            background-color: yellowgreen;
+            display: block;
+            text-align: center;
+            width: 20%;
+            height: 30%;
+            border-radius: 12px;
+            border: 2px solid black;
+            cursor: pointer;
+            margin:auto;
+            
+            outline: none;
+            
+            color: #fff;
+            transition: 0.25px;
+        }
+        button:hover{
+            background-color: blueviolet;
+        }
+        button a{
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    
+       
+      <div class="contentbx"> <h2>FILLUP BELOW INFORMATION</h2></div>
+             <div class="main">
+                 
+                 <form>
+                     
+                     <div class="inputbx">
+                    <label>First Name :</label>
+                    <br>
+                    <input type="text" name="fname"
+                    id="name" placeholder="Enter Your First Name">
+                    <br><br>
+                    <label>Last Name :</label>
+                    <br>
+                    <input type="text" name="lname"
+                    id="name" placeholder="Enter Your Last Name">
+                    <br><br>
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <p>Male</p><input type="radio" id="Male" name="gender">
+                        <p>female</p><input type="radio" id="Female" name="gender">
+                  
+                    
+
+                   
+                
+                    </fieldset>
+                    <br><br>
+                    <label>Your Age :</label>
+                    <br>
+                    <input type="number" name="age" id="name" placeholder="How old are you?">
+                    <br><br>
+                    <label>Your Experience :</label>
+                    <br>
+                    <input type="number" name="exp" id="exp" placeholder="Enter Your Experience">
+                    <br><br>
+                    <label>Date of Birth</label>
+                    <br>
+                    <input type="date" name="date" id="date" placeholder="Enter Your DOB">
+                    <br><br>
+                    <fieldset>
+                        <legend>Leaving Address</legend>
+                        <input type="text" name="fline"
+                        id="fline" placeholder="Enter First Line"><br><br>
+                        <input type="text" name="lline"
+                        id="lline" placeholder="Enter Second Line"><br><br>
+                        <input type="text" name="lline"
+                        id="lline" placeholder="Enter last Line">
+    
+    
+    
+                    </fieldset>
+                    <br>
+                    <button><a href="#">NEXT</a></button>
+                    </div>
+                    </div>
+                    
+                 </form>
+             </div>
+             </div>
+             
+            
+           
+    </section>
+</body>
+</html>

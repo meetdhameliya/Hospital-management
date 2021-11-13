@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            background-image: url("p2.jpg");
+            background-position: center;
+            background-size: cover;            
+            font-family: sans-serif;
+            margin-top: 40px;
+
+        }
+        h2{
+            width: 800px;
+            background-color:rgb(0,0,0,0.6);
+            margin: auto;
+            color: #fff;
+            padding: 10px 10px 0px 0px;
+            text-align: center;
+            border-radius: 15px 15px 0px 0px;
+        }
+        .main{
+            background-color: rgb(0,0,0,0.5);
+            width: 800px;
+            margin: auto;
+        }
+        form{
+            padding: 10px;
+            text-align: center;
+        }
+        label{
+            color: skyblue;
+            font-size: 20px;
+        }
+        input{
+            color: slategrey;
+            border-radius: 7px 7px 7px 7px;
+            width: 50%;
+            
+        }
+        legend{
+            color:tomato;
+        }
+        fieldset{
+            text-align: center;
+            position: relative;
+            color: skyblue;
+        }
+        button{
+            background-color: yellowgreen;
+            display: block;
+            text-align: center;
+            width: 20%;
+            height: 30%;
+            border-radius: 12px;
+            border: 2px solid black;
+            cursor: pointer;
+            margin:auto;
+            
+            outline: none;
+            
+            color: #fff;
+            transition: 0.25px;
+        }
+        button:hover{
+            background-color: blueviolet;
+        }
+        button a{
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="contentbx"> <h2>FILLUP BELOW INFORMATION</h2></div>
+    <div class="main">
+        <form method="post" action="//submit.form" onSubmit="return validateForm();">
+            <div class="inputbx">
+                <label>First Name :</label>
+                <br>
+            <input type="text" name="fname"
+            id="name" placeholder="Enter Your First Name">
+            <br><br>
+            <label>Last Name :</label>
+            <br>
+            <input type="text" name="lname"
+            id="name" placeholder="Enter Your Last Name">
+            <br><br>
+            <fieldset>
+                <legend>Gender</legend>
+                <p>Male</p><input type="radio" id="Male" name="gender">
+                <p>female</p><input type="radio" id="Female" name="gender">
+          
+            
+
+           
+        
+          </fieldset>
+            <br><br>
+            <label>Your Age :</label>
+            <br>
+            <input type="number" name="age" id="name" placeholder="How old are you?">
+            <br><br>
+           
+
+<label>Date of Birth</label>
+                    <br>
+                    <input type="date" name="date" id="date" placeholder="Enter Your DOB">
+                    <br><br>
+                    <fieldset>
+                        <legend>Leaving Address</legend>
+                        <input type="text" name="fline"
+                        id="fline" placeholder="Enter First Line"><br><br>
+                        <input type="text" name="lline"
+                        id="lline" placeholder="Enter Second Line"><br><br>
+                        <input type="text" name="lline"
+                        id="lline" placeholder="Enter last Line">
+    
+    
+    
+                    </fieldset><br>
+                    <label>Select Your City: </label>
+                    <br>
+                    <select name="City" id="city">
+                        <option>Ahmadabad</option>
+<option>Surat</option>
+<option>Vadodara</option>
+<option>Rajkot</option>
+<option>Banaskantha</option>
+<option>Bhavnagar</option>
+<option>Junagadh</option>
+<option>Sabarkantha</option>
+<option>Panchmahal</option>
+<option>Kheda</option>
+<option>Jamnagar</option>
+<option>Dohad</option>
+<option>Anand</option>
+<option>Kachch</option>
+<option>Mahesana</option>
+<option>Surendranagar</option>
+<option>Amreli</option>
+<option>Patan</option>
+<option>Valsad</option>
+<option>Bharuch</option>
+<option>Gandhinagar</option>
+<option>Navsari</option>
+<option>Tapi</option>
+<option>Narmada</option>
+<option>Porbandar</option>
+<option>Dang</option>
+                    </select>
+                    <br><br>
+                    <label>Phone Number:</label>
+                    <br>
+                    <input type="number" name="num" id="num">
+                    <br><br>
+
+                    <button><a href="#">NEXT</a></button>
+
+                    
+
+                    
+</body>
+</html>
